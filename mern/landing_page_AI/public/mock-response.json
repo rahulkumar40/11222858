@@ -1,0 +1,16 @@
+{
+  "meta": { "title": "Mock Product", "description": "Preview only - mock data", "theme": "light" },
+  "components": [
+    { "type": "navbar", "props": { "brand": "MockBrand", "links": ["Home", "Features", "Pricing"] } },
+    {
+      "type": "hero",
+      "props": {
+        "headline": "Mock Product — AI Landing Pages",
+        "subheadline": "This is a mock preview so you can test the frontend without a backend.",
+        "ctas": [{ "label": "Get Started", "aria": "Get started" }, { "label": "Live Demo", "aria": "View demo" }]
+      }
+    },
+    { "type": "features", "props": { "items": [ { "title": "Speed", "desc": "Generate in seconds" }, { "title": "Design", "desc": "Beautiful layouts" }, { "title": "Export", "desc": "Download static HTML" } ] } },
+    { "type": "cta", "props": { "title": "Ready to ship?", "button": "Start free trial" } }
+  ]
+}
